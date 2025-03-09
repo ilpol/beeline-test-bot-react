@@ -17,6 +17,9 @@ function App() {
      Приложение
      window.location.href = {window.location.href}
      <button onClick={onClose}>Закрыть</button>
+     <div className='info'>
+       tg = {tg}
+     </div>
     </div>
   );
 }
