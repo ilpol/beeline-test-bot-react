@@ -15,6 +15,7 @@ function App() {
   return (
     <div className="App">
      Приложение
+     window.location.href = {window.location.href}
      <button onClick={onClose}>Закрыть</button>
     </div>
   );
